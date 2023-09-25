@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #dd7941, #d98e34, #cea42d, #bdba33, #a5ce48);
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+.container .main-container {
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 23%;
+    height: 75%;
+    background: black;
+    margin-top: 16px;
+}
+
+.container .main-container .row1 .white {
+    color: black;
+}
+
+.container .main-container .row1 button,
+.row2 button,
+.row3 button,
+.row4 button,
+.row5 button {
+    border-radius: 34%;
+    height: 37px;
+    width: 49px;
+    margin: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container .main-container .row1 .gray {
+    background-color: rgb(179, 172, 172);
+}
+
+.container .main-container .row1 .yellow,
+.row2 .yellow,
+.row4 .yellow,
+.row5 .yellow {
+    background-color: rgb(233, 134, 21);
+}
+
+.container .main-container .row3 .light-yellow {
+    background-color: rgb(214, 153, 84);
+}
+
+.container .main-container .row2 .dark-gray,
+.row3 .dark-gray,
+.row4 .dark-gray,
+.row5 .dark-gray {
+    background-color: rgb(85, 79, 79);
+}
+
+.container .main-container .row5 #special-btn {
+    width: 110px;
+    border-radius: 14%;
+}
+
+.container .main-container .row input {
+    text-align-last: end;
+    height: 151px;
+    margin-bottom: 12px;
+    font-size: 25px;
+    width: 240px;
+    font-family: 'Poppins', sans-serif;
+    font-variant: small-caps;
+}
+@media screen and (max-width: 991px){
+    body{height: 100vh !important;
+   
+    }
+    .main-container{
+    width: 63% !important;
+    height: 54% !important;
+    padding: 10px 1px;
+}
+}
+.text-center{text-align: center;}
